@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div>
+        <img id="oc" src="./oc.jpeg" alt="OpenCode logo">
+        <h1>OpenCode Club Registration Form</h1>
+        <h2>Need Help?</h2>
+        <ul>
+                <li>Support: 123-456-7890</li>
+                <li>Technical Support: 789-456-1230</li>
+            </ul>
+    </div>
+    <form>
+        <div class="name">
+            <b><label for="name" class="label">Name:</label></b>
+            <br>
+            <input type="text" class="input" id="name" name="name" required placeholder="Enter your name">
+        </div>
+        <br>    
+        <div class="name">
+            <b><label for="rollno" class=label>Roll No:</label></b>
+            <br>
+            <input type="text" class="input" id="rollno" name="rollno" required placeholder="Enter your roll no.">
+            
+        </div>
+        <br>
+        <div>
+            <b><label for="category" class="category">Regular/Day-Scholar:</label></b>
+            <br>
+            <select id="ds" name="category">
+                <option>-Select-</option>
+                <option value="regular">Regular</option>
+                <option value="dayscholar">Day-Scholar</option>
+            </select>
+        </div>
+        <br>
+        <div>
+            <b><label for="dob" class="label">Date of Birth</label></b>
+            <br>
+            <input type="date" class="input" id="dob" name="dob" required>
+        </div>
+        <br>
+        <div>
+            <b><label class="label">Gender:</label>
+            <br></b>
+            <input type="radio" id="male" name="gender" value="gender" required>
+            <label for="male">Male</label>
+            <input type="radio" id="female" name="gender" value="gender" required>
+            <label for="female">Female</label>
+            <input type="radio" id="others" name="gender" value="gender" required>
+            <label for="others">Others</label>
+        </div>
+        <br>
+        <div class="name">
+            <b><label for="mobile" class="label" name="mobile" required>Mobile No:</label></b>
+            <br>
+            <input type="tel" id="mobile" name="mobile" pattern="[0-9]{1,10}$" required placeholder="Enter your 10 digit mobile no."> 
+          
+        </div>
+        <br>
+        <div>
+            <b><label class="label">Language Learnt:</label></b><br>
+            <input type="checkbox" id="c" name="ll" value="ll">
+            <label for="ll">C</label>
+            <input type="checkbox" id="c++" name="ll" value="ll">
+            <label for="ll">C++</label>
+            <input type="checkbox" id="java" name="ll" value="ll">
+            <label for="ll">Java</label>
+            <input type="checkbox" id="py" name="ll" value="ll">
+            <label for="ll">Python</label>
+            <input type="checkbox" id="html" name="ll" value="ll">
+            <label for="ll">HTML</label>
+            <input type="checkbox" id="none" name="ll" value="ll">
+            <label for="ll">None</label>
+        </div>
+        <br>
+        <div>
+            <b><label class="label">Interested in learning:</label></b><br>
+            <input type="checkbox" id="web" name="ll" value="ll">
+            <label for="ll">Web Development</label>
+            <input type="checkbox" id="app" name="ll" value="ll">
+            <label for="ll">App Development</label>
+            <input type="checkbox" id="cyber" name="ll" value="ll">
+            <label for="ll">Cyber Security</label>
+            <input type="checkbox" id="ai" name="ll" value="ll">
+            <label for="ll">AI-Machine Learning</label>
+        </div>
+        <br>
+        <div class="submit">
+            <input type="submit" value="Submit">
+        </div>
+    </form>    
+</body>
+<br>
+<footer>
+    <p>&copy; 2023 OpenCode. All rights are reserved.</p>
+    <p>[Form created by- <b>Arka Sadhu</b>]</p>
+</footer>
+</html>

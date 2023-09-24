@@ -1,0 +1,33 @@
+#oc{
+    width:10%;
+    border-radius: 5px;
+}
+#oc:hover{
+    scale: 1.1;
+}
+h1{
+    text-align: center;
+    background-color: rgb(184, 250, 250);
+    border-radius: 5px;
+}
+body{
+    border: solid 5px rgb(97, 134, 238);
+    border-radius: 10px;
+    padding: 10px;
+    
+}
+.name input{
+    width: 75vh;
+    height: 4vh;
+}
+.submit input{
+    border: 0;
+    background-color: blue;
+    border-radius: 3px;
+    color: white;
+    padding: 7px;
+}
+#ds{
+    width: 118px;
+    height: 4vh;
+}
